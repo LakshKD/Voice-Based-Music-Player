@@ -1,0 +1,22 @@
+# gunzip -c mono/decode_dev/phone_stats.*.gz | ./analyze_phone_length_stats.py mono/graph 
+# Started at Sun Apr 30 16:00:53 IST 2017
+#
+analyze_phone_length_stats.py: WARNING: optional-silence sil is seen only 0.0% of the time at utterance end.  This may not be optimal.
+At utterance begin, sil accounts for 100.0% of phone occurrences, with duration (median, mean, 95-percentile) is (114,114.0,114) frames.
+At utterance end, nonsilence accounts for 100.0% of phone occurrences, with duration (median, mean, 95-percentile) is (3,3.0,3) frames.
+At utterance end, eɪ_E accounts for 100.0% of phone occurrences, with duration (median, mean, 95-percentile) is (3,3.0,3) frames.
+Overall, nonsilence accounts for 90.0% of phone occurrences, with duration (median, mean, 95-percentile) is (7,16.8,26) frames.
+Overall, eɪ_E accounts for 20.0% of phone occurrences, with duration (median, mean, 95-percentile) is (3,5.0,3) frames.
+Overall, r_B accounts for 20.0% of phone occurrences, with duration (median, mean, 95-percentile) is (26,46.0,26) frames.
+Overall, sil accounts for 10.0% of phone occurrences, with duration (median, mean, 95-percentile) is (114,114.0,114) frames.
+Overall, ɪ_E accounts for 10.0% of phone occurrences, with duration (median, mean, 95-percentile) is (14,14.0,14) frames.
+Overall, ɪ_I accounts for 10.0% of phone occurrences, with duration (median, mean, 95-percentile) is (7,7.0,7) frames.
+Overall, m_B accounts for 10.0% of phone occurrences, with duration (median, mean, 95-percentile) is (6,6.0,6) frames.
+Overall, s_I accounts for 10.0% of phone occurrences, with duration (median, mean, 95-percentile) is (14,14.0,14) frames.
+Overall, t_I accounts for 10.0% of phone occurrences, with duration (median, mean, 95-percentile) is (8,8.0,8) frames.
+The optional-silence phone sil occupies 43.0% of frames overall 
+Limiting the stats to the 55.8% of frames not covered by an utterance-[begin/end] phone, optional-silence sil occupies 0.0% of frames.
+Assuming 100 frames per second, the alignments represent 0.0 hours of data, or 0.0 hours if sil frames are excluded.
+Utterance-internal optional-silences sil comprise 0.0% of utterance-internal phones, with duration (median, mean, 95-percentile) = (0,0.0,0)
+# Accounting: time=0 threads=1
+# Ended (code 0) at Sun Apr 30 16:00:53 IST 2017, elapsed time 0 seconds

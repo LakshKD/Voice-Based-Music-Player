@@ -1,0 +1,204 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri1/graph/words.txt exp/tri1/final.mdl exp/tri1/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c > exp/tri1/decode/lat.1.gz" 
+# Started at Sun Apr 30 14:00:43 IST 2017
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri1/graph/words.txt exp/tri1/final.mdl exp/tri1/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c > exp/tri1/decode/lat.1.gz' 
+add-deltas ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- 
+lakshya6-24 genre 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-24 is -2.74522 over 274 frames.
+lakshya6-25 genre 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-25 is -2.39626 over 325 frames.
+lakshya6-26 genre 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-26 is -2.98498 over 244 frames.
+lakshya6-27 genre 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-27 is -3.62041 over 323 frames.
+lakshya6-28 genre 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-28 is -2.7679 over 263 frames.
+lakshya6-indie_pop-bhool_ja bhool ja 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-indie_pop-bhool_ja is -4.52819 over 158 frames.
+lakshya6-indie_pop-deewana_tera deewana tera 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-indie_pop-deewana_tera is -5.05884 over 174 frames.
+lakshya6-indie_pop-indie_pop indie pop 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-indie_pop-indie_pop is -5.11636 over 191 frames.
+lakshya6-indie_pop-kajra_re kajra re 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-indie_pop-kajra_re is -4.79157 over 140 frames.
+lakshya6-indie_pop-o_piya o piya 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-indie_pop-o_piya is -4.70609 over 151 frames.
+lakshya6-indie_pop-saathiya saathiya 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-indie_pop-saathiya is -5.03322 over 135 frames.
+lakshya6-indie_pop-tanha_dil tanha dil 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-indie_pop-tanha_dil is -5.10178 over 151 frames.
+lakshya6-indie_pop-tera_chehra tera chehra 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-indie_pop-tera_chehra is -4.94694 over 161 frames.
+lakshya6-indie_pop-woh_chali_woh_chali woh chali woh chali 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-indie_pop-woh_chali_woh_chali is -5.46291 over 184 frames.
+lakshya6-indie_pop-yaad_pia_ki yaad pia ki 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-indie_pop-yaad_pia_ki is -5.08374 over 200 frames.
+lakshya6-indie_pop-yaaron yaaron 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-indie_pop-yaaron is -4.84824 over 154 frames.
+lakshya6-jazz-all_of_me all of me 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-jazz-all_of_me is -4.92424 over 156 frames.
+lakshya6-jazz-autumn_leaves autumn leaves 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-jazz-autumn_leaves is -5.04845 over 163 frames.
+lakshya6-jazz-blue_monk blue monk 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-jazz-blue_monk is -4.88265 over 172 frames.
+lakshya6-jazz-body_and_soul body and soul 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-jazz-body_and_soul is -4.88537 over 186 frames.
+lakshya6-jazz-jazz jazz 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-jazz-jazz is -4.65036 over 163 frames.
+lakshya6-jazz-misty misty 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-jazz-misty is -4.66547 over 163 frames.
+lakshya6-jazz-my_funny_valentine my funny valentine 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-jazz-my_funny_valentine is -5.22985 over 205 frames.
+lakshya6-jazz-sing_sing_sing sing sing sing 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-jazz-sing_sing_sing is -4.94056 over 179 frames.
+lakshya6-jazz-sophisticated_lady sophisticated lady 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-jazz-sophisticated_lady is -5.15484 over 226 frames.
+lakshya6-jazz-strange_fruit strange fruit 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-jazz-strange_fruit is -5.38333 over 181 frames.
+lakshya6-jazz-take_five take five 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-jazz-take_five is -4.69867 over 172 frames.
+lakshya6-pop-cheap_thrills cheap thrills 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-pop-cheap_thrills is -5.13034 over 174 frames.
+lakshya6-pop-fake_love fake love 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-pop-fake_love is -4.90372 over 181 frames.
+lakshya6-pop-hey_jude hey jude 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-pop-hey_jude is -4.9163 over 156 frames.
+lakshya6-pop-i_love_you o love you 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-pop-i_love_you is -5.18828 over 170 frames.
+lakshya6-pop-photograph photograph 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-pop-photograph is -5.35895 over 191 frames.
+lakshya6-pop-play_that_song play shape song 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-pop-play_that_song is -4.91641 over 188 frames.
+lakshya6-pop-pop pop 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-pop-pop is -4.62624 over 154 frames.
+lakshya6-pop-rockabye rockabye 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-pop-rockabye is -4.73455 over 179 frames.
+lakshya6-pop-shape_of_you shape of you 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-pop-shape_of_you is -4.5289 over 226 frames.
+lakshya6-pop-something_just_like_this o just like this 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-pop-something_just_like_this is -5.41522 over 246 frames.
+lakshya6-rock-back_in_black back in black 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-rock-back_in_black is -5.70089 over 130 frames.
+lakshya6-rock-born_to_be_wild born to my all wild 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-rock-born_to_be_wild is -6.48878 over 172 frames.
+lakshya6-rock-free_bird free bird 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-rock-free_bird is -5.07276 over 149 frames.
+lakshya6-rock-highway_to_hell highway to hell 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-rock-highway_to_hell is -5.12435 over 163 frames.
+lakshya6-rock-hotel_california hotel california 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-rock-hotel_california is -5.45674 over 184 frames.
+lakshya6-rock-purple_haze purple haze 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-rock-purple_haze is -4.81985 over 181 frames.
+lakshya6-rock-rock rock 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-rock-rock is -4.81511 over 154 frames.
+lakshya6-rock-smoke_on_the_water o on the water 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-rock-smoke_on_the_water is -4.88618 over 205 frames.
+lakshya6-rock-stairway_to_heaven take all on 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-rock-stairway_to_heaven is -7.93864 over 172 frames.
+lakshya6-rock-sweet_child_o_mine sweet child o mine 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-rock-sweet_child_o_mine is -5.49866 over 209 frames.
+lakshya6-rock-welcome_to_the_jungle to the jungle 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance lakshya6-rock-welcome_to_the_jungle is -5.65516 over 184 frames.
+srijay6-24 genre 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-24 is -2.93081 over 274 frames.
+srijay6-25 genre 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-25 is -2.43512 over 325 frames.
+srijay6-26 genre 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-26 is -3.04454 over 244 frames.
+srijay6-27 genre 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-27 is -3.78623 over 323 frames.
+srijay6-28 genre 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-28 is -2.81521 over 263 frames.
+srijay6-indie_pop-bhool_ja bhool ja 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-indie_pop-bhool_ja is -5.53882 over 117 frames.
+srijay6-indie_pop-deewana_tera deewana tera 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-indie_pop-deewana_tera is -5.9794 over 117 frames.
+srijay6-indie_pop-indie_pop indie pop 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-indie_pop-indie_pop is -5.44517 over 117 frames.
+srijay6-indie_pop-kajra_re kajra re 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-indie_pop-kajra_re is -5.4157 over 117 frames.
+srijay6-indie_pop-o_piya o piya 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-indie_pop-o_piya is -5.40411 over 117 frames.
+srijay6-indie_pop-saathiya saathiya 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-indie_pop-saathiya is -5.42859 over 117 frames.
+srijay6-indie_pop-tanha_dil tanha dil 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-indie_pop-tanha_dil is -5.59879 over 117 frames.
+srijay6-indie_pop-tera_chehra tera chehra 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-indie_pop-tera_chehra is -5.77098 over 117 frames.
+srijay6-indie_pop-woh_chali_woh_chali woh chali woh chali 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-indie_pop-woh_chali_woh_chali is -5.79624 over 117 frames.
+srijay6-indie_pop-yaad_pia_ki yaad pia ki 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-indie_pop-yaad_pia_ki is -5.8241 over 117 frames.
+srijay6-indie_pop-yaaron yaaron 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-indie_pop-yaaron is -5.31435 over 117 frames.
+srijay6-jazz-all_of_me all of me 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-jazz-all_of_me is -5.67443 over 117 frames.
+srijay6-jazz-autumn_leaves autumn leaves 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-jazz-autumn_leaves is -5.36043 over 117 frames.
+srijay6-jazz-blue_monk blue monk 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-jazz-blue_monk is -5.45733 over 117 frames.
+srijay6-jazz-body_and_soul body and soul 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-jazz-body_and_soul is -5.62788 over 117 frames.
+srijay6-jazz-jazz jazz 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-jazz-jazz is -5.4218 over 117 frames.
+srijay6-jazz-misty misty 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-jazz-misty is -5.43318 over 117 frames.
+srijay6-jazz-my_funny_valentine my funny valentine 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-jazz-my_funny_valentine is -5.91636 over 117 frames.
+srijay6-jazz-sing_sing_sing sing sing sing 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-jazz-sing_sing_sing is -5.48851 over 117 frames.
+srijay6-jazz-sophisticated_lady sophisticated lady 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-jazz-sophisticated_lady is -6.37507 over 117 frames.
+srijay6-jazz-strange_fruit strange fruit 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-jazz-strange_fruit is -5.6772 over 117 frames.
+srijay6-jazz-take_five take five 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-jazz-take_five is -5.72143 over 117 frames.
+srijay6-pop-cheap_thrills cheap thrills 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-pop-cheap_thrills is -5.83886 over 117 frames.
+srijay6-pop-fake_love fake love 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-pop-fake_love is -5.41958 over 117 frames.
+srijay6-pop-hey_jude hey jude 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-pop-hey_jude is -5.6495 over 117 frames.
+srijay6-pop-i_love_you o love you 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-pop-i_love_you is -6.67275 over 117 frames.
+srijay6-pop-photograph photograph 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-pop-photograph is -5.48613 over 117 frames.
+LOG (apply-cmvn[5.1.32~1-34128]:main():apply-cmvn.cc:146) Applied cepstral mean normalization to 96 utterances, errors on 0
+srijay6-pop-play_that_song play shape song 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-pop-play_that_song is -5.8651 over 117 frames.
+srijay6-pop-pop pop 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-pop-pop is -5.20901 over 117 frames.
+srijay6-pop-rockabye rockabye 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-pop-rockabye is -5.31762 over 117 frames.
+srijay6-pop-shape_of_you shape of you 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-pop-shape_of_you is -5.29401 over 117 frames.
+srijay6-pop-something_just_like_this o just like this 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-pop-something_just_like_this is -6.27099 over 117 frames.
+srijay6-rock-back_in_black back in black 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-rock-back_in_black is -5.95322 over 117 frames.
+srijay6-rock-born_to_be_wild born wild 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-rock-born_to_be_wild is -7.67364 over 117 frames.
+srijay6-rock-free_bird free bird 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-rock-free_bird is -5.16617 over 117 frames.
+srijay6-rock-highway_to_hell highway to hell 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-rock-highway_to_hell is -5.87663 over 117 frames.
+srijay6-rock-hotel_california hotel california 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-rock-hotel_california is -6.08911 over 117 frames.
+srijay6-rock-purple_haze purple haze 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-rock-purple_haze is -5.51976 over 117 frames.
+srijay6-rock-rock rock 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-rock-rock is -5.37903 over 117 frames.
+srijay6-rock-smoke_on_the_water the water 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-rock-smoke_on_the_water is -6.33886 over 117 frames.
+srijay6-rock-stairway_to_heaven highway to my all 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-rock-stairway_to_heaven is -8.36704 over 117 frames.
+srijay6-rock-sweet_child_o_mine sweet child o mine 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-rock-sweet_child_o_mine is -6.1667 over 117 frames.
+srijay6-rock-welcome_to_the_jungle back the jungle 
+LOG (gmm-latgen-faster[5.1.32~1-34128]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:290) Log-like per frame for utterance srijay6-rock-welcome_to_the_jungle is -7.50922 over 117 frames.
+LOG (gmm-latgen-faster[5.1.32~1-34128]:main():gmm-latgen-faster.cc:176) Time taken 5.63309s: real-time factor assuming 100 frames/sec is 0.0365263
+LOG (gmm-latgen-faster[5.1.32~1-34128]:main():gmm-latgen-faster.cc:179) Done 96 utterances, failed for 0
+LOG (gmm-latgen-faster[5.1.32~1-34128]:main():gmm-latgen-faster.cc:181) Overall log-likelihood per frame is -4.95657 over 15422 frames.
+# Accounting: time=6 threads=1
+# Ended (code 0) at Sun Apr 30 14:00:49 IST 2017, elapsed time 6 seconds

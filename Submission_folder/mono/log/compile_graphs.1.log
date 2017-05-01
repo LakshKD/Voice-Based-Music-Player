@@ -1,0 +1,29 @@
+# compile-train-graphs --read-disambig-syms=data/lang/phones/disambig.int exp/mono/tree exp/mono/0.mdl data/lang/L.fst "ark:sym2int.pl --map-oov 2 -f 2- data/lang/words.txt < data/train/split1/1/text|" "ark:|gzip -c >exp/mono/fsts.1.gz" 
+# Started at Sun Apr 30 11:23:40 IST 2017
+#
+compile-train-graphs --read-disambig-syms=data/lang/phones/disambig.int exp/mono/tree exp/mono/0.mdl data/lang/L.fst 'ark:sym2int.pl --map-oov 2 -f 2- data/lang/words.txt < data/train/split1/1/text|' 'ark:|gzip -c >exp/mono/fsts.1.gz' 
+sym2int.pl: replacing I with 2
+sym2int.pl: replacing something with 2
+sym2int.pl: replacing be with 2
+sym2int.pl: replacing smoke with 2
+sym2int.pl: replacing stairway with 2
+sym2int.pl: replacing heaven with 2
+sym2int.pl: replacing welcome with 2
+sym2int.pl: replacing I with 2
+sym2int.pl: replacing something with 2
+sym2int.pl: replacing be with 2
+sym2int.pl: replacing smoke with 2
+sym2int.pl: replacing stairway with 2
+sym2int.pl: replacing heaven with 2
+sym2int.pl: replacing welcome with 2
+sym2int.pl: replacing I with 2
+sym2int.pl: replacing something with 2
+sym2int.pl: replacing be with 2
+sym2int.pl: replacing smoke with 2
+sym2int.pl: replacing stairway with 2
+sym2int.pl: replacing heaven with 2
+sym2int.pl: not warning for OOVs any more times
+** Replaced 84 instances of OOVs with 2
+LOG (compile-train-graphs[5.0.61~2-37b53]:main():compile-train-graphs.cc:145) compile-train-graphs: succeeded for 576 graphs, failed for 0
+# Accounting: time=1 threads=1
+# Ended (code 0) at Sun Apr 30 11:23:41 IST 2017, elapsed time 1 seconds

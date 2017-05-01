@@ -1,0 +1,200 @@
+# lattice-best-path --lm-scale=12 --word-symbol-table=exp/mono/graph/words.txt "ark:gunzip -c exp/mono/decode/lat.*.gz|" ark,t:exp/mono/decode/scoring/12.tra 
+# Started at Sun Apr 30 11:25:46 IST 2017
+#
+lattice-best-path --lm-scale=12 --word-symbol-table=exp/mono/graph/words.txt 'ark:gunzip -c exp/mono/decode/lat.*.gz|' ark,t:exp/mono/decode/scoring/12.tra 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-24, best cost 193.108 + 16460.5 = 16653.6 over 274 frames.
+lakshya6-24 genre 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-25, best cost 156.711 + 20351.5 = 20508.2 over 325 frames.
+lakshya6-25 genre 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-26, best cost 192.224 + 14719.7 = 14912 over 244 frames.
+lakshya6-26 genre 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-27, best cost 236.582 + 20820.8 = 21057.4 over 323 frames.
+lakshya6-27 genre 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-28, best cost 227.791 + 17358.8 = 17586.6 over 263 frames.
+lakshya6-28 genre 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-indie_pop-bhool_ja, best cost 254.173 + 11358.7 = 11612.9 over 158 frames.
+lakshya6-indie_pop-bhool_ja bhool ja 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-indie_pop-deewana_tera, best cost 284.74 + 12993.8 = 13278.5 over 174 frames.
+lakshya6-indie_pop-deewana_tera deewana tera 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-indie_pop-indie_pop, best cost 299.194 + 14645 = 14944.2 over 191 frames.
+lakshya6-indie_pop-indie_pop indie pop 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-indie_pop-kajra_re, best cost 233.678 + 10204.7 = 10438.3 over 140 frames.
+lakshya6-indie_pop-kajra_re kajra re 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-indie_pop-o_piya, best cost 220.15 + 10453.5 = 10673.7 over 151 frames.
+lakshya6-indie_pop-o_piya o piya 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-indie_pop-saathiya, best cost 163.672 + 9791.91 = 9955.58 over 135 frames.
+lakshya6-indie_pop-saathiya saathiya 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-indie_pop-tanha_dil, best cost 161.575 + 11592.9 = 11754.4 over 151 frames.
+lakshya6-indie_pop-tanha_dil tanha 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-indie_pop-tera_chehra, best cost 249.616 + 11897.6 = 12147.2 over 161 frames.
+lakshya6-indie_pop-tera_chehra to chehra 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-indie_pop-woh_chali_woh_chali, best cost 344.604 + 14064.2 = 14408.8 over 184 frames.
+lakshya6-indie_pop-woh_chali_woh_chali chali woh chali 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-indie_pop-yaad_pia_ki, best cost 338.711 + 14653.6 = 14992.3 over 200 frames.
+lakshya6-indie_pop-yaad_pia_ki yaad pia ki 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-indie_pop-yaaron, best cost 150.359 + 11031.2 = 11181.6 over 154 frames.
+lakshya6-indie_pop-yaaron yaaron 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-jazz-all_of_me, best cost 289.434 + 11298.4 = 11587.8 over 156 frames.
+lakshya6-jazz-all_of_me all of me 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-jazz-autumn_leaves, best cost 241.295 + 11614.6 = 11855.9 over 163 frames.
+lakshya6-jazz-autumn_leaves autumn leaves 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-jazz-blue_monk, best cost 291.16 + 12761.1 = 13052.3 over 172 frames.
+lakshya6-jazz-blue_monk blue monk 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-jazz-body_and_soul, best cost 266.12 + 13382.5 = 13648.6 over 186 frames.
+lakshya6-jazz-body_and_soul body and 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-jazz-jazz, best cost 173.008 + 11642.8 = 11815.8 over 163 frames.
+lakshya6-jazz-jazz jazz 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-jazz-misty, best cost 181.967 + 11934.1 = 12116.1 over 163 frames.
+lakshya6-jazz-misty misty 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-jazz-my_funny_valentine, best cost 370.933 + 15680.9 = 16051.8 over 205 frames.
+lakshya6-jazz-my_funny_valentine my funny valentine 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-jazz-sing_sing_sing, best cost 340.645 + 12559.6 = 12900.3 over 179 frames.
+lakshya6-jazz-sing_sing_sing sing sing sing 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-jazz-sophisticated_lady, best cost 302.522 + 17219.3 = 17521.8 over 226 frames.
+lakshya6-jazz-sophisticated_lady sophisticated lady 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-jazz-strange_fruit, best cost 186.312 + 14796.4 = 14982.7 over 181 frames.
+lakshya6-jazz-strange_fruit strange 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-jazz-take_five, best cost 260.883 + 12206.3 = 12467.2 over 172 frames.
+lakshya6-jazz-take_five take five 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-pop-cheap_thrills, best cost 274.177 + 12803 = 13077.1 over 174 frames.
+lakshya6-pop-cheap_thrills cheap thrills 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-pop-fake_love, best cost 153.024 + 13758.9 = 13912 over 181 frames.
+lakshya6-pop-fake_love love 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-pop-hey_jude, best cost 165.704 + 11457.5 = 11623.2 over 156 frames.
+lakshya6-pop-hey_jude hey 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-pop-i_love_you, best cost 226.202 + 11925 = 12151.2 over 170 frames.
+lakshya6-pop-i_love_you love you 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-pop-photograph, best cost 181.207 + 14361.9 = 14543.1 over 191 frames.
+lakshya6-pop-photograph photograph 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-pop-play_that_song, best cost 336.745 + 13490.1 = 13826.8 over 188 frames.
+lakshya6-pop-play_that_song play shape song 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-pop-pop, best cost 176.264 + 10666.8 = 10843 over 154 frames.
+lakshya6-pop-pop pop 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-pop-rockabye, best cost 184.641 + 13252.5 = 13437.2 over 179 frames.
+lakshya6-pop-rockabye rockabye 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-pop-shape_of_you, best cost 333.724 + 15776.9 = 16110.6 over 226 frames.
+lakshya6-pop-shape_of_you shape of you 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-pop-something_just_like_this, best cost 357.446 + 19497.1 = 19854.6 over 246 frames.
+lakshya6-pop-something_just_like_this just like this 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-rock-back_in_black, best cost 302.644 + 9929.77 = 10232.4 over 130 frames.
+lakshya6-rock-back_in_black back in black 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-rock-born_to_be_wild, best cost 337.741 + 13264.7 = 13602.5 over 172 frames.
+lakshya6-rock-born_to_be_wild born to wild 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-rock-free_bird, best cost 176.155 + 11402.5 = 11578.6 over 149 frames.
+lakshya6-rock-free_bird bird 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-rock-highway_to_hell, best cost 335.648 + 12394 = 12729.7 over 163 frames.
+lakshya6-rock-highway_to_hell highway to hey 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-rock-hotel_california, best cost 282.745 + 14945.9 = 15228.6 over 184 frames.
+lakshya6-rock-hotel_california to california 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-rock-purple_haze, best cost 260.959 + 12835.7 = 13096.7 over 181 frames.
+lakshya6-rock-purple_haze purple haze 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-rock-rock, best cost 151.771 + 10697.4 = 10849.2 over 154 frames.
+lakshya6-rock-rock rock 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-rock-smoke_on_the_water, best cost 263.711 + 15152.8 = 15416.5 over 205 frames.
+lakshya6-rock-smoke_on_the_water the water 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-rock-stairway_to_heaven, best cost 248.034 + 13867.9 = 14116 over 172 frames.
+lakshya6-rock-stairway_to_heaven to and 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-rock-sweet_child_o_mine, best cost 365.943 + 16086.5 = 16452.5 over 209 frames.
+lakshya6-rock-sweet_child_o_mine sweet child mine 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance lakshya6-rock-welcome_to_the_jungle, best cost 267.065 + 14198.4 = 14465.5 over 184 frames.
+lakshya6-rock-welcome_to_the_jungle to jungle 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-24, best cost 141.47 + 16500.9 = 16642.3 over 274 frames.
+srijay6-24 genre 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-25, best cost 141.888 + 20140.9 = 20282.8 over 325 frames.
+srijay6-25 genre 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-26, best cost 140.794 + 14723 = 14863.8 over 244 frames.
+srijay6-26 genre 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-27, best cost 251.052 + 20767.7 = 21018.7 over 323 frames.
+srijay6-27 genre genre 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-28, best cost 174.216 + 17402.5 = 17576.7 over 263 frames.
+srijay6-28 genre 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-indie_pop-bhool_ja, best cost 213.795 + 9251.87 = 9465.67 over 117 frames.
+srijay6-indie_pop-bhool_ja bhool ja 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-indie_pop-deewana_tera, best cost 254.013 + 9984.43 = 10238.4 over 117 frames.
+srijay6-indie_pop-deewana_tera deewana to 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-indie_pop-indie_pop, best cost 244.165 + 9548.72 = 9792.89 over 117 frames.
+srijay6-indie_pop-indie_pop indie pop 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-indie_pop-kajra_re, best cost 162.259 + 9569.29 = 9731.55 over 117 frames.
+srijay6-indie_pop-kajra_re kajra 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-indie_pop-o_piya, best cost 165.477 + 9866.99 = 10032.5 over 117 frames.
+srijay6-indie_pop-o_piya piya 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-indie_pop-saathiya, best cost 164.469 + 8825.26 = 8989.72 over 117 frames.
+srijay6-indie_pop-saathiya saathiya 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-indie_pop-tanha_dil, best cost 239.299 + 9831.12 = 10070.4 over 117 frames.
+srijay6-indie_pop-tanha_dil to dil 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-indie_pop-tera_chehra, best cost 236.976 + 9799.5 = 10036.5 over 117 frames.
+srijay6-indie_pop-tera_chehra to chehra 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-indie_pop-woh_chali_woh_chali, best cost 386.787 + 9886.89 = 10273.7 over 117 frames.
+srijay6-indie_pop-woh_chali_woh_chali woh chali woh chali 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-indie_pop-yaad_pia_ki, best cost 315.681 + 9585.72 = 9901.4 over 117 frames.
+srijay6-indie_pop-yaad_pia_ki yaad pia ki 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-indie_pop-yaaron, best cost 149.333 + 9147.27 = 9296.6 over 117 frames.
+srijay6-indie_pop-yaaron yaaron 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-jazz-all_of_me, best cost 303.262 + 9294.47 = 9597.73 over 117 frames.
+srijay6-jazz-all_of_me all of me 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-jazz-autumn_leaves, best cost 167.219 + 9365.38 = 9532.6 over 117 frames.
+srijay6-jazz-autumn_leaves leaves 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-jazz-blue_monk, best cost 234.797 + 9423.99 = 9658.79 over 117 frames.
+srijay6-jazz-blue_monk blue monk 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-jazz-body_and_soul, best cost 320.134 + 10007.3 = 10327.4 over 117 frames.
+srijay6-jazz-body_and_soul body and soul 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-jazz-jazz, best cost 172.293 + 9081.47 = 9253.76 over 117 frames.
+srijay6-jazz-jazz jazz 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-jazz-misty, best cost 157.303 + 8866.13 = 9023.44 over 117 frames.
+srijay6-jazz-misty misty 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-jazz-my_funny_valentine, best cost 243.409 + 9369.99 = 9613.39 over 117 frames.
+srijay6-jazz-my_funny_valentine mine valentine 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-jazz-sing_sing_sing, best cost 287.613 + 9598.65 = 9886.26 over 117 frames.
+srijay6-jazz-sing_sing_sing sing this 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-jazz-sophisticated_lady, best cost 194.382 + 10675.1 = 10869.5 over 117 frames.
+srijay6-jazz-sophisticated_lady sophisticated 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-jazz-strange_fruit, best cost 232.424 + 9488.9 = 9721.33 over 117 frames.
+srijay6-jazz-strange_fruit strange fruit 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-jazz-take_five, best cost 248.873 + 9567 = 9815.88 over 117 frames.
+srijay6-jazz-take_five take five 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-pop-cheap_thrills, best cost 232.267 + 9345.34 = 9577.61 over 117 frames.
+srijay6-pop-cheap_thrills cheap thrills 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-pop-fake_love, best cost 228.554 + 9029.32 = 9257.88 over 117 frames.
+srijay6-pop-fake_love fake love 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-pop-hey_jude, best cost 230.417 + 9165.91 = 9396.33 over 117 frames.
+srijay6-pop-hey_jude hey jude 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-pop-i_love_you, best cost 158.555 + 9276.52 = 9435.08 over 117 frames.
+srijay6-pop-i_love_you love 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-pop-photograph, best cost 160.423 + 8735.84 = 8896.26 over 117 frames.
+srijay6-pop-photograph photograph 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-pop-play_that_song, best cost 326.428 + 9594.63 = 9921.06 over 117 frames.
+srijay6-pop-play_that_song play shape song 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-pop-pop, best cost 143.699 + 9250.82 = 9394.52 over 117 frames.
+srijay6-pop-pop pop 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-pop-rockabye, best cost 164.722 + 9480.68 = 9645.4 over 117 frames.
+srijay6-pop-rockabye rockabye 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-pop-shape_of_you, best cost 309.723 + 9584.92 = 9894.64 over 117 frames.
+srijay6-pop-shape_of_you shape of you 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-pop-something_just_like_this, best cost 311.958 + 9907.4 = 10219.4 over 117 frames.
+srijay6-pop-something_just_like_this just like this 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-rock-back_in_black, best cost 264.751 + 9613.9 = 9878.65 over 117 frames.
+srijay6-rock-back_in_black back black 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-rock-born_to_be_wild, best cost 317.508 + 10094.6 = 10412.1 over 117 frames.
+srijay6-rock-born_to_be_wild born to wild 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-rock-free_bird, best cost 214.836 + 8097.52 = 8312.36 over 117 frames.
+srijay6-rock-free_bird free bird 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-rock-highway_to_hell, best cost 321.883 + 9892.87 = 10214.8 over 117 frames.
+srijay6-rock-highway_to_hell highway to dil 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-rock-hotel_california, best cost 250.548 + 9937.08 = 10187.6 over 117 frames.
+srijay6-rock-hotel_california hotel california 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-rock-purple_haze, best cost 226.875 + 9514.94 = 9741.81 over 117 frames.
+srijay6-rock-purple_haze purple haze 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-rock-rock, best cost 160.76 + 9613.02 = 9773.78 over 117 frames.
+srijay6-rock-rock rock 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-rock-smoke_on_the_water, best cost 244.038 + 9793.42 = 10037.5 over 117 frames.
+srijay6-rock-smoke_on_the_water the water 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-rock-stairway_to_heaven, best cost 160.319 + 10226.3 = 10386.6 over 117 frames.
+srijay6-rock-stairway_to_heaven to 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-rock-sweet_child_o_mine, best cost 334.306 + 9795.13 = 10129.4 over 117 frames.
+srijay6-rock-sweet_child_o_mine sweet child mine 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:99) For utterance srijay6-rock-welcome_to_the_jungle, best cost 325.486 + 9781.15 = 10106.6 over 117 frames.
+srijay6-rock-welcome_to_the_jungle to the jungle 
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:124) Overall cost per frame is 75.9685 = 1.49294 [graph] + 74.4755 [acoustic] over 15422 frames.
+LOG (lattice-best-path[5.0.61~2-37b53]:main():lattice-best-path.cc:128) Done 96 lattices, failed for 0
+# Accounting: time=0 threads=1
+# Ended (code 0) at Sun Apr 30 11:25:46 IST 2017, elapsed time 0 seconds

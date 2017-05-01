@@ -1,0 +1,3 @@
+# gunzip -c mono/decode_dev/depth_stats_tmp.*.gz | python analyze_lattice_depth_stats.py mono/graph 
+# Started at Sun Apr 30 16:00:53 IST 2017
+#

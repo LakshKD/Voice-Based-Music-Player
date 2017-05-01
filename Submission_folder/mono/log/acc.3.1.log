@@ -1,0 +1,23 @@
+# gmm-acc-stats-ali exp/mono/3.mdl "ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split1/1/utt2spk scp:data/train/split1/1/cmvn.scp scp:data/train/split1/1/feats.scp ark:- | add-deltas ark:- ark:- |" "ark:gunzip -c exp/mono/ali.1.gz|" exp/mono/3.1.acc 
+# Started at Sun Apr 30 11:23:55 IST 2017
+#
+gmm-acc-stats-ali exp/mono/3.mdl 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split1/1/utt2spk scp:data/train/split1/1/cmvn.scp scp:data/train/split1/1/feats.scp ark:- | add-deltas ark:- ark:- |' 'ark:gunzip -c exp/mono/ali.1.gz|' exp/mono/3.1.acc 
+add-deltas ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/train/split1/1/utt2spk scp:data/train/split1/1/cmvn.scp scp:data/train/split1/1/feats.scp ark:- 
+LOG (gmm-acc-stats-ali[5.0.61~2-37b53]:main():gmm-acc-stats-ali.cc:105) Processed 50 utterances; for utterance lakshya1-25 avg. like is -73.9957 over 325 frames.
+LOG (gmm-acc-stats-ali[5.0.61~2-37b53]:main():gmm-acc-stats-ali.cc:105) Processed 100 utterances; for utterance lakshya2-27 avg. like is -78.9422 over 323 frames.
+LOG (gmm-acc-stats-ali[5.0.61~2-37b53]:main():gmm-acc-stats-ali.cc:105) Processed 150 utterances; for utterance lakshya3-indie_pop-bhool_ja avg. like is -86.0444 over 158 frames.
+LOG (gmm-acc-stats-ali[5.0.61~2-37b53]:main():gmm-acc-stats-ali.cc:105) Processed 200 utterances; for utterance lakshya4-indie_pop-indie_pop avg. like is -87.3325 over 191 frames.
+LOG (gmm-acc-stats-ali[5.0.61~2-37b53]:main():gmm-acc-stats-ali.cc:105) Processed 250 utterances; for utterance lakshya5-indie_pop-o_piya avg. like is -83.0603 over 151 frames.
+LOG (gmm-acc-stats-ali[5.0.61~2-37b53]:main():gmm-acc-stats-ali.cc:105) Processed 300 utterances; for utterance srijay-indie_pop-tanha_dil avg. like is -95.2521 over 117 frames.
+LOG (gmm-acc-stats-ali[5.0.61~2-37b53]:main():gmm-acc-stats-ali.cc:105) Processed 350 utterances; for utterance srijay1-indie_pop-woh_chali_woh_chali avg. like is -95.9802 over 117 frames.
+LOG (gmm-acc-stats-ali[5.0.61~2-37b53]:main():gmm-acc-stats-ali.cc:105) Processed 400 utterances; for utterance srijay2-indie_pop-yaaron avg. like is -92.6566 over 117 frames.
+LOG (gmm-acc-stats-ali[5.0.61~2-37b53]:main():gmm-acc-stats-ali.cc:105) Processed 450 utterances; for utterance srijay3-jazz-autumn_leaves avg. like is -87.3849 over 117 frames.
+LOG (gmm-acc-stats-ali[5.0.61~2-37b53]:main():gmm-acc-stats-ali.cc:105) Processed 500 utterances; for utterance srijay4-jazz-body_and_soul avg. like is -98.0594 over 117 frames.
+LOG (gmm-acc-stats-ali[5.0.61~2-37b53]:main():gmm-acc-stats-ali.cc:105) Processed 550 utterances; for utterance srijay5-jazz-misty avg. like is -88.8208 over 117 frames.
+LOG (apply-cmvn[5.0.61~2-37b53]:main():apply-cmvn.cc:146) Applied cepstral mean normalization to 576 utterances, errors on 0
+LOG (gmm-acc-stats-ali[5.0.61~2-37b53]:main():gmm-acc-stats-ali.cc:112) Done 576 files, 0 with errors.
+LOG (gmm-acc-stats-ali[5.0.61~2-37b53]:main():gmm-acc-stats-ali.cc:115) Overall avg like per frame (Gaussian only) = -86.9737 over 92912 frames.
+LOG (gmm-acc-stats-ali[5.0.61~2-37b53]:main():gmm-acc-stats-ali.cc:123) Written accs.
+# Accounting: time=0 threads=1
+# Ended (code 0) at Sun Apr 30 11:23:55 IST 2017, elapsed time 0 seconds

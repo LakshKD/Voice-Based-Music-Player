@@ -1,0 +1,10 @@
+# ./compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:make_mfcc/log/wav_demo_train.1.scp ark:- | ./copy-feats --compress=true ark:- ark,scp:/home/lakshya/kaldi-trunk/egs/Music_Player/Submission_folder/mfcc/raw_mfcc_demo_train.1.ark,/home/lakshya/kaldi-trunk/egs/Music_Player/Submission_folder/mfcc/raw_mfcc_demo_train.1.scp 
+# Started at Sun Apr 30 16:00:52 IST 2017
+#
+./copy-feats --compress=true ark:- ark,scp:/home/lakshya/kaldi-trunk/egs/Music_Player/Submission_folder/mfcc/raw_mfcc_demo_train.1.ark,/home/lakshya/kaldi-trunk/egs/Music_Player/Submission_folder/mfcc/raw_mfcc_demo_train.1.scp 
+./compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:make_mfcc/log/wav_demo_train.1.scp ark:- 
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key rec.wav
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:181)  Done 1 out of 1 utterances.
+LOG (copy-feats[5.0.61~2-37b53]:main():copy-feats.cc:120) Copied 1 feature matrices.
+# Accounting: time=0 threads=1
+# Ended (code 0) at Sun Apr 30 16:00:52 IST 2017, elapsed time 0 seconds

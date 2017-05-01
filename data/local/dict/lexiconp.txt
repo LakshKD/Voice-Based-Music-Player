@@ -1,0 +1,91 @@
+!SIL 1.0	sil
+<UNK> 1.0	spn
+genre 1.0	dʒ e n r
+jazz  1.0	dʒ æ z
+pop 1.0	p ɒ p
+indie 1.0	ɪ n d ɪ
+yaaron 1.0	eə r ə n
+deewana 1.0	d i: j w ə n ə
+bhool 1.0	b h u: l
+ja 1.0	dʒ ə
+yaad 1.0	j ɑ: d
+pia 1.0	p ɪ ɪə
+ki 1.0	k ɪ
+tanha 1.0	t ə n ə
+dil 1.0	d ɪ l
+kajra 1.0	k æ dʒ r ə
+re 1.0	r eɪ
+tera 1.0	t ə r ə
+chehra 1.0	tʃ h r ə
+o 1.0	əʊ
+piya 1.0	p aɪ j ə
+saathiya 1.0	s ɑ: eɪ θ aɪ j ə
+woh 1.0	w ɒ
+chali 1.0	tʃ ɔ: l ɪ
+all 1.0	ɔ: l
+of 1.0	ə v
+me 1.0	m i:
+autumn 1.0	ɔ: t ə m
+leaves 1.0	l i: v z
+blue 1.0	b l u:
+monk 1.0	m ʌ ŋ k
+body 1.0	b ɒ d ɪ
+and 1.0	ə n
+soul 1.0	s əʊ l
+misty 1.0	m ɪ s t ɪ
+my 1.0	m aɪ
+funny 1.0	f ʌ n ɪ
+valentine 1.0	v ə l ə n t aɪ n
+sing 1.0	s ɪ ŋ
+sophisticated 1.0	s ə f ɪ s t ɪ k eɪ t ɪ d
+lady 1.0	l eɪ d ɪ
+strange 1.0	s t r eɪ n dʒ
+fruit 1.0	f r u: t
+take 1.0	t eɪ k
+five 1.0	f aɪ v
+cheap 1.0	tʃ i: p
+thrills 1.0	θ r ɪ l z
+fake 1.0	f eɪ k
+love 1.0	l ʌ v
+hey 1.0	h eɪ
+jude 1.0	dʒ u: d
+i 1.0	aɪ
+you 1.0	j u:
+photograph 1.0	f əʊ t ə g r ɑ: f
+play 1.0	p l eɪ
+that 1.0	ð æ t
+song 1.0	s ɒ ŋ
+rockabye 1.0	r ɒ k ə b aɪ
+shape 1.0	ð æ t
+of 1.0	ʃ eɪ p
+you 1.0	ə v j u:
+Something  1.0	s ʌ m θ ɪ ŋ
+just 1.0	dʒ ʌ s t
+like 1.0	l aɪ k
+this 1.0	ð ɪ s
+rock 1.0	r ɒ k
+back 1.0	b æ k
+in 1.0	ɪ n
+black 1.0	b l æ k
+born 1.0	b ɔ: n
+Be 1.0	b i:
+wild 1.0	w aɪ l d
+free 1.0	f r i:
+bird 1.0	b ɜ: d
+highway 1.0	h aɪ w eɪ
+to 1.0	t ə
+hell 1.0	h e l
+hotel 1.0	h əʊ t e l
+california  1.0	k æ l ɪ f ɔ: n ɪə
+purple 1.0	p ɜ: p l
+haze 1.0	h eɪ z
+Smoke 1.0	s m əʊ k
+on 1.0	ɒ n
+water 1.0	w ɔ: t ə
+sweet 1.0	s w i: t
+child 1.0	tʃ aɪ l d
+o  1.0	əʊ
+mine 1.0	m aɪ n
+Welcome 1.0	w e l k ə m
+the 1.0	ð ə
+jungle 1.0	dʒ ʌ ŋ g l

@@ -1,0 +1,91 @@
+!SIL	1.0	sil_S
+<UNK>	1.0	spn_S
+genre	1.0	dʒ_B e_I n_I r_E
+jazz	1.0	dʒ_B æ_I z_E
+pop	1.0	p_B ɒ_I p_E
+indie	1.0	ɪ_B n_I d_I ɪ_E
+yaaron	1.0	eə_B r_I ə_I n_E
+deewana	1.0	d_B i:_I j_I w_I ə_I n_I ə_E
+bhool	1.0	b_B h_I u:_I l_E
+ja	1.0	dʒ_B ə_E
+yaad	1.0	j_B ɑ:_I d_E
+pia	1.0	p_B ɪ_I ɪə_E
+ki	1.0	k_B ɪ_E
+tanha	1.0	t_B ə_I n_I ə_E
+dil	1.0	d_B ɪ_I l_E
+kajra	1.0	k_B æ_I dʒ_I r_I ə_E
+re	1.0	r_B eɪ_E
+tera	1.0	t_B ə_I r_I ə_E
+chehra	1.0	tʃ_B h_I r_I ə_E
+o	1.0	əʊ_S #1
+piya	1.0	p_B aɪ_I j_I ə_E
+saathiya	1.0	s_B ɑ:_I eɪ_I θ_I aɪ_I j_I ə_E
+woh	1.0	w_B ɒ_E
+chali	1.0	tʃ_B ɔ:_I l_I ɪ_E
+all	1.0	ɔ:_B l_E
+of	1.0	ə_B v_E
+me	1.0	m_B i:_E
+autumn	1.0	ɔ:_B t_I ə_I m_E
+leaves	1.0	l_B i:_I v_I z_E
+blue	1.0	b_B l_I u:_E
+monk	1.0	m_B ʌ_I ŋ_I k_E
+body	1.0	b_B ɒ_I d_I ɪ_E
+and	1.0	ə_B n_E
+soul	1.0	s_B əʊ_I l_E
+misty	1.0	m_B ɪ_I s_I t_I ɪ_E
+my	1.0	m_B aɪ_E
+funny	1.0	f_B ʌ_I n_I ɪ_E
+valentine	1.0	v_B ə_I l_I ə_I n_I t_I aɪ_I n_E
+sing	1.0	s_B ɪ_I ŋ_E
+sophisticated	1.0	s_B ə_I f_I ɪ_I s_I t_I ɪ_I k_I eɪ_I t_I ɪ_I d_E
+lady	1.0	l_B eɪ_I d_I ɪ_E
+strange	1.0	s_B t_I r_I eɪ_I n_I dʒ_E
+fruit	1.0	f_B r_I u:_I t_E
+take	1.0	t_B eɪ_I k_E
+five	1.0	f_B aɪ_I v_E
+cheap	1.0	tʃ_B i:_I p_E
+thrills	1.0	θ_B r_I ɪ_I l_I z_E
+fake	1.0	f_B eɪ_I k_E
+love	1.0	l_B ʌ_I v_E
+hey	1.0	h_B eɪ_E
+jude	1.0	dʒ_B u:_I d_E
+i	1.0	aɪ_S
+you	1.0	j_B u:_E
+photograph	1.0	f_B əʊ_I t_I ə_I g_I r_I ɑ:_I f_E
+play	1.0	p_B l_I eɪ_E
+that	1.0	ð_B æ_I t_E #1
+song	1.0	s_B ɒ_I ŋ_E
+rockabye	1.0	r_B ɒ_I k_I ə_I b_I aɪ_E
+shape	1.0	ð_B æ_I t_E #2
+of	1.0	ʃ_B eɪ_I p_E
+you	1.0	ə_B v_I j_I u:_E
+Something	1.0	s_B ʌ_I m_I θ_I ɪ_I ŋ_E
+just	1.0	dʒ_B ʌ_I s_I t_E
+like	1.0	l_B aɪ_I k_E
+this	1.0	ð_B ɪ_I s_E
+rock	1.0	r_B ɒ_I k_E
+back	1.0	b_B æ_I k_E
+in	1.0	ɪ_B n_E
+black	1.0	b_B l_I æ_I k_E
+born	1.0	b_B ɔ:_I n_E
+Be	1.0	b_B i:_E
+wild	1.0	w_B aɪ_I l_I d_E
+free	1.0	f_B r_I i:_E
+bird	1.0	b_B ɜ:_I d_E
+highway	1.0	h_B aɪ_I w_I eɪ_E
+to	1.0	t_B ə_E
+hell	1.0	h_B e_I l_E
+hotel	1.0	h_B əʊ_I t_I e_I l_E
+california	1.0	k_B æ_I l_I ɪ_I f_I ɔ:_I n_I ɪə_E
+purple	1.0	p_B ɜ:_I p_I l_E
+haze	1.0	h_B eɪ_I z_E
+Smoke	1.0	s_B m_I əʊ_I k_E
+on	1.0	ɒ_B n_E
+water	1.0	w_B ɔ:_I t_I ə_E
+sweet	1.0	s_B w_I i:_I t_E
+child	1.0	tʃ_B aɪ_I l_I d_E
+o	1.0	əʊ_S #2
+mine	1.0	m_B aɪ_I n_E
+Welcome	1.0	w_B e_I l_I k_I ə_I m_E
+the	1.0	ð_B ə_E
+jungle	1.0	dʒ_B ʌ_I ŋ_I g_I l_E

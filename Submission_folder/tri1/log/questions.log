@@ -1,0 +1,13 @@
+cluster-phones exp/tri1/treeacc data/lang/phones/sets.int exp/tri1/questions.int 
+WARNING (cluster-phones[5.1.32~1-34128]:AutomaticallyObtainQuestions():build-tree.cc:628) AutomaticallyObtainQuestions: no stats available for phone set: 11 12 13 14 
+WARNING (cluster-phones[5.1.32~1-34128]:AutomaticallyObtainQuestions():build-tree.cc:628) AutomaticallyObtainQuestions: no stats available for phone set: 19 20 21 22 
+WARNING (cluster-phones[5.1.32~1-34128]:AutomaticallyObtainQuestions():build-tree.cc:628) AutomaticallyObtainQuestions: no stats available for phone set: 27 28 29 30 
+WARNING (cluster-phones[5.1.32~1-34128]:AutomaticallyObtainQuestions():build-tree.cc:628) AutomaticallyObtainQuestions: no stats available for phone set: 35 36 37 38 
+WARNING (cluster-phones[5.1.32~1-34128]:AutomaticallyObtainQuestions():build-tree.cc:628) AutomaticallyObtainQuestions: no stats available for phone set: 39 40 41 42 
+WARNING (cluster-phones[5.1.32~1-34128]:AutomaticallyObtainQuestions():build-tree.cc:628) AutomaticallyObtainQuestions: no stats available for phone set: 43 44 45 46 
+WARNING (cluster-phones[5.1.32~1-34128]:AutomaticallyObtainQuestions():build-tree.cc:628) AutomaticallyObtainQuestions: no stats available for phone set: 47 48 49 50 
+WARNING (cluster-phones[5.1.32~1-34128]:AutomaticallyObtainQuestions():build-tree.cc:628) AutomaticallyObtainQuestions: no stats available for phone set: 67 68 69 70 
+WARNING (cluster-phones[5.1.32~1-34128]:AutomaticallyObtainQuestions():build-tree.cc:628) AutomaticallyObtainQuestions: no stats available for phone set: 75 76 77 78 
+WARNING (cluster-phones[5.1.32~1-34128]:AutomaticallyObtainQuestions():build-tree.cc:628) AutomaticallyObtainQuestions: no stats available for phone set: 91 92 93 94 
+WARNING (cluster-phones[5.1.32~1-34128]:AutomaticallyObtainQuestions():build-tree.cc:628) AutomaticallyObtainQuestions: no stats available for phone set: 195 196 197 198 
+LOG (cluster-phones[5.1.32~1-34128]:main():cluster-phones.cc:129) Wrote questions to exp/tri1/questions.int

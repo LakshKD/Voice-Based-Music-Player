@@ -1,0 +1,900 @@
+# compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/train/wav_train.1.scp ark:- | copy-feats --compress=true ark:- ark,scp:/home/lakshya/kaldi-trunk/egs/Music_Player/mfcc/raw_mfcc_train.1.ark,/home/lakshya/kaldi-trunk/egs/Music_Player/mfcc/raw_mfcc_train.1.scp 
+# Started at Sun Apr 30 13:51:35 IST 2017
+#
+compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/train/wav_train.1.scp ark:- 
+copy-feats --compress=true ark:- ark,scp:/home/lakshya/kaldi-trunk/egs/Music_Player/mfcc/raw_mfcc_train.1.ark,/home/lakshya/kaldi-trunk/egs/Music_Player/mfcc/raw_mfcc_train.1.scp 
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-24
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-25
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-26
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-27
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-28
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-indie_pop-bhool_ja
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-indie_pop-deewana_tera
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-indie_pop-indie_pop
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-indie_pop-kajra_re
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 10 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-indie_pop-o_piya
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-indie_pop-saathiya
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-indie_pop-tanha_dil
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-indie_pop-tera_chehra
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-indie_pop-woh_chali_woh_chali
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-indie_pop-yaad_pia_ki
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-indie_pop-yaaron
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-jazz-all_of_me
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-jazz-autumn_leaves
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-jazz-blue_monk
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 20 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-jazz-body_and_soul
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-jazz-jazz
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-jazz-misty
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-jazz-my_funny_valentine
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-jazz-sing_sing_sing
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-jazz-sophisticated_lady
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-jazz-strange_fruit
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-jazz-take_five
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-pop-cheap_thrills
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-pop-fake_love
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 30 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-pop-hey_jude
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-pop-i_love_you
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-pop-photograph
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-pop-play_that_song
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-pop-pop
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-pop-rockabye
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-pop-shape_of_you
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-pop-something_just_like_this
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-rock-back_in_black
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-rock-born_to_be_wild
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 40 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-rock-free_bird
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-rock-highway_to_hell
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-rock-hotel_california
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-rock-purple_haze
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-rock-rock
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-rock-smoke_on_the_water
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-rock-stairway_to_heaven
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-rock-sweet_child_o_mine
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya-rock-welcome_to_the_jungle
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-24
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 50 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-25
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-26
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-27
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-28
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-indie_pop-bhool_ja
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-indie_pop-deewana_tera
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-indie_pop-indie_pop
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-indie_pop-kajra_re
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-indie_pop-o_piya
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-indie_pop-saathiya
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 60 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-indie_pop-tanha_dil
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-indie_pop-tera_chehra
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-indie_pop-woh_chali_woh_chali
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-indie_pop-yaad_pia_ki
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-indie_pop-yaaron
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-jazz-all_of_me
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-jazz-autumn_leaves
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-jazz-blue_monk
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-jazz-body_and_soul
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-jazz-jazz
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 70 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-jazz-misty
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-jazz-my_funny_valentine
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-jazz-sing_sing_sing
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-jazz-sophisticated_lady
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-jazz-strange_fruit
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-jazz-take_five
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-pop-cheap_thrills
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-pop-fake_love
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-pop-hey_jude
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-pop-i_love_you
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 80 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-pop-photograph
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-pop-play_that_song
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-pop-pop
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-pop-rockabye
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-pop-shape_of_you
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-pop-something_just_like_this
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-rock-back_in_black
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-rock-born_to_be_wild
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-rock-free_bird
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-rock-highway_to_hell
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 90 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-rock-hotel_california
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-rock-purple_haze
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-rock-rock
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-rock-smoke_on_the_water
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-rock-stairway_to_heaven
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-rock-sweet_child_o_mine
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya1-rock-welcome_to_the_jungle
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-24
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-25
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-26
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 100 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-27
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-28
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-indie_pop-bhool_ja
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-indie_pop-deewana_tera
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-indie_pop-indie_pop
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-indie_pop-kajra_re
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-indie_pop-o_piya
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-indie_pop-saathiya
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-indie_pop-tanha_dil
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-indie_pop-tera_chehra
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 110 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-indie_pop-woh_chali_woh_chali
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-indie_pop-yaad_pia_ki
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-indie_pop-yaaron
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-jazz-all_of_me
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-jazz-autumn_leaves
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-jazz-blue_monk
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-jazz-body_and_soul
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-jazz-jazz
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-jazz-misty
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-jazz-my_funny_valentine
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 120 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-jazz-sing_sing_sing
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-jazz-sophisticated_lady
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-jazz-strange_fruit
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-jazz-take_five
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-pop-cheap_thrills
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-pop-fake_love
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-pop-hey_jude
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-pop-i_love_you
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-pop-photograph
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-pop-play_that_song
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 130 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-pop-pop
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-pop-rockabye
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-pop-shape_of_you
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-pop-something_just_like_this
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-rock-back_in_black
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-rock-born_to_be_wild
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-rock-free_bird
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-rock-highway_to_hell
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-rock-hotel_california
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-rock-purple_haze
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 140 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-rock-rock
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-rock-smoke_on_the_water
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-rock-stairway_to_heaven
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-rock-sweet_child_o_mine
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya2-rock-welcome_to_the_jungle
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-24
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-25
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-26
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-27
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-28
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 150 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-indie_pop-bhool_ja
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-indie_pop-deewana_tera
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-indie_pop-indie_pop
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-indie_pop-kajra_re
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-indie_pop-o_piya
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-indie_pop-saathiya
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-indie_pop-tanha_dil
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-indie_pop-tera_chehra
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-indie_pop-woh_chali_woh_chali
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-indie_pop-yaad_pia_ki
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 160 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-indie_pop-yaaron
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-jazz-all_of_me
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-jazz-autumn_leaves
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-jazz-blue_monk
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-jazz-body_and_soul
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-jazz-jazz
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-jazz-misty
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-jazz-my_funny_valentine
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-jazz-sing_sing_sing
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-jazz-sophisticated_lady
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 170 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-jazz-strange_fruit
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-jazz-take_five
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-pop-cheap_thrills
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-pop-fake_love
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-pop-hey_jude
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-pop-i_love_you
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-pop-photograph
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-pop-play_that_song
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-pop-pop
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-pop-rockabye
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 180 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-pop-shape_of_you
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-pop-something_just_like_this
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-rock-back_in_black
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-rock-born_to_be_wild
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-rock-free_bird
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-rock-highway_to_hell
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-rock-hotel_california
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-rock-purple_haze
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-rock-rock
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-rock-smoke_on_the_water
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 190 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-rock-stairway_to_heaven
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-rock-sweet_child_o_mine
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya3-rock-welcome_to_the_jungle
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-24
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-25
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-26
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-27
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-28
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-indie_pop-bhool_ja
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-indie_pop-deewana_tera
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 200 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-indie_pop-indie_pop
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-indie_pop-kajra_re
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-indie_pop-o_piya
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-indie_pop-saathiya
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-indie_pop-tanha_dil
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-indie_pop-tera_chehra
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-indie_pop-woh_chali_woh_chali
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-indie_pop-yaad_pia_ki
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-indie_pop-yaaron
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-jazz-all_of_me
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 210 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-jazz-autumn_leaves
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-jazz-blue_monk
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-jazz-body_and_soul
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-jazz-jazz
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-jazz-misty
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-jazz-my_funny_valentine
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-jazz-sing_sing_sing
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-jazz-sophisticated_lady
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-jazz-strange_fruit
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-jazz-take_five
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 220 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-pop-cheap_thrills
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-pop-fake_love
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-pop-hey_jude
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-pop-i_love_you
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-pop-photograph
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-pop-play_that_song
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-pop-pop
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-pop-rockabye
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-pop-shape_of_you
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-pop-something_just_like_this
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 230 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-rock-back_in_black
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-rock-born_to_be_wild
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-rock-free_bird
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-rock-highway_to_hell
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-rock-hotel_california
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-rock-purple_haze
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-rock-rock
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-rock-smoke_on_the_water
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-rock-stairway_to_heaven
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-rock-sweet_child_o_mine
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 240 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya4-rock-welcome_to_the_jungle
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-24
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-25
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-26
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-27
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-28
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-indie_pop-bhool_ja
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-indie_pop-deewana_tera
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-indie_pop-indie_pop
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-indie_pop-kajra_re
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 250 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-indie_pop-o_piya
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-indie_pop-saathiya
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-indie_pop-tanha_dil
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-indie_pop-tera_chehra
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-indie_pop-woh_chali_woh_chali
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-indie_pop-yaad_pia_ki
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-indie_pop-yaaron
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-jazz-all_of_me
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-jazz-autumn_leaves
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-jazz-blue_monk
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 260 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-jazz-body_and_soul
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-jazz-jazz
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-jazz-misty
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-jazz-my_funny_valentine
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-jazz-sing_sing_sing
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-jazz-sophisticated_lady
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-jazz-strange_fruit
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-jazz-take_five
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-pop-cheap_thrills
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-pop-fake_love
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 270 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-pop-hey_jude
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-pop-i_love_you
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-pop-photograph
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-pop-play_that_song
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-pop-pop
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-pop-rockabye
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-pop-shape_of_you
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-pop-something_just_like_this
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-rock-back_in_black
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-rock-born_to_be_wild
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 280 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-rock-free_bird
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-rock-highway_to_hell
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-rock-hotel_california
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-rock-purple_haze
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-rock-rock
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-rock-smoke_on_the_water
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-rock-stairway_to_heaven
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-rock-sweet_child_o_mine
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key lakshya5-rock-welcome_to_the_jungle
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-24
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 290 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-25
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-26
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-27
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-28
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-indie_pop-bhool_ja
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-indie_pop-deewana_tera
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-indie_pop-indie_pop
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-indie_pop-kajra_re
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-indie_pop-o_piya
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-indie_pop-saathiya
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 300 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-indie_pop-tanha_dil
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-indie_pop-tera_chehra
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-indie_pop-woh_chali_woh_chali
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-indie_pop-yaad_pia_ki
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-indie_pop-yaaron
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-jazz-all_of_me
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-jazz-autumn_leaves
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-jazz-blue_monk
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-jazz-body_and_soul
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-jazz-jazz
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 310 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-jazz-misty
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-jazz-my_funny_valentine
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-jazz-sing_sing_sing
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-jazz-sophisticated_lady
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-jazz-strange_fruit
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-jazz-take_five
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-pop-cheap_thrills
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-pop-fake_love
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-pop-hey_jude
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-pop-i_love_you
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 320 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-pop-photograph
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-pop-play_that_song
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-pop-pop
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-pop-rockabye
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-pop-shape_of_you
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-pop-something_just_like_this
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-rock-back_in_black
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-rock-born_to_be_wild
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-rock-free_bird
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-rock-highway_to_hell
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 330 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-rock-hotel_california
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-rock-purple_haze
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-rock-rock
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-rock-smoke_on_the_water
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-rock-stairway_to_heaven
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-rock-sweet_child_o_mine
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay-rock-welcome_to_the_jungle
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-24
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-25
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-26
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 340 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-27
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-28
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-indie_pop-bhool_ja
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-indie_pop-deewana_tera
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-indie_pop-indie_pop
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-indie_pop-kajra_re
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-indie_pop-o_piya
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-indie_pop-saathiya
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-indie_pop-tanha_dil
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-indie_pop-tera_chehra
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 350 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-indie_pop-woh_chali_woh_chali
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-indie_pop-yaad_pia_ki
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-indie_pop-yaaron
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-jazz-all_of_me
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-jazz-autumn_leaves
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-jazz-blue_monk
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-jazz-body_and_soul
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-jazz-jazz
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-jazz-misty
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-jazz-my_funny_valentine
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 360 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-jazz-sing_sing_sing
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-jazz-sophisticated_lady
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-jazz-strange_fruit
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-jazz-take_five
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-pop-cheap_thrills
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-pop-fake_love
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-pop-hey_jude
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-pop-i_love_you
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-pop-photograph
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-pop-play_that_song
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 370 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-pop-pop
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-pop-rockabye
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-pop-shape_of_you
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-pop-something_just_like_this
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-rock-back_in_black
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-rock-born_to_be_wild
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-rock-free_bird
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-rock-highway_to_hell
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-rock-hotel_california
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-rock-purple_haze
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 380 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-rock-rock
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-rock-smoke_on_the_water
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-rock-stairway_to_heaven
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-rock-sweet_child_o_mine
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay1-rock-welcome_to_the_jungle
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-24
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-25
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-26
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-27
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-28
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 390 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-indie_pop-bhool_ja
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-indie_pop-deewana_tera
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-indie_pop-indie_pop
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-indie_pop-kajra_re
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-indie_pop-o_piya
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-indie_pop-saathiya
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-indie_pop-tanha_dil
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-indie_pop-tera_chehra
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-indie_pop-woh_chali_woh_chali
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-indie_pop-yaad_pia_ki
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 400 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-indie_pop-yaaron
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-jazz-all_of_me
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-jazz-autumn_leaves
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-jazz-blue_monk
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-jazz-body_and_soul
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-jazz-jazz
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-jazz-misty
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-jazz-my_funny_valentine
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-jazz-sing_sing_sing
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-jazz-sophisticated_lady
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 410 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-jazz-strange_fruit
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-jazz-take_five
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-pop-cheap_thrills
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-pop-fake_love
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-pop-hey_jude
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-pop-i_love_you
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-pop-photograph
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-pop-play_that_song
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-pop-pop
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-pop-rockabye
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 420 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-pop-shape_of_you
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-pop-something_just_like_this
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-rock-back_in_black
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-rock-born_to_be_wild
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-rock-free_bird
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-rock-highway_to_hell
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-rock-hotel_california
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-rock-purple_haze
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-rock-rock
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-rock-smoke_on_the_water
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 430 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-rock-stairway_to_heaven
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-rock-sweet_child_o_mine
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay2-rock-welcome_to_the_jungle
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-24
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-25
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-26
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-27
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-28
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-indie_pop-bhool_ja
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-indie_pop-deewana_tera
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 440 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-indie_pop-indie_pop
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-indie_pop-kajra_re
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-indie_pop-o_piya
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-indie_pop-saathiya
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-indie_pop-tanha_dil
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-indie_pop-tera_chehra
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-indie_pop-woh_chali_woh_chali
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-indie_pop-yaad_pia_ki
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-indie_pop-yaaron
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-jazz-all_of_me
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 450 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-jazz-autumn_leaves
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-jazz-blue_monk
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-jazz-body_and_soul
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-jazz-jazz
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-jazz-misty
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-jazz-my_funny_valentine
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-jazz-sing_sing_sing
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-jazz-sophisticated_lady
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-jazz-strange_fruit
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-jazz-take_five
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 460 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-pop-cheap_thrills
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-pop-fake_love
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-pop-hey_jude
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-pop-i_love_you
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-pop-photograph
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-pop-play_that_song
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-pop-pop
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-pop-rockabye
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-pop-shape_of_you
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-pop-something_just_like_this
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 470 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-rock-back_in_black
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-rock-born_to_be_wild
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-rock-free_bird
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-rock-highway_to_hell
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-rock-hotel_california
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-rock-purple_haze
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-rock-rock
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-rock-smoke_on_the_water
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-rock-stairway_to_heaven
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-rock-sweet_child_o_mine
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 480 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay3-rock-welcome_to_the_jungle
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-24
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-25
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-26
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-27
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-28
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-indie_pop-bhool_ja
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-indie_pop-deewana_tera
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-indie_pop-indie_pop
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-indie_pop-kajra_re
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 490 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-indie_pop-o_piya
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-indie_pop-saathiya
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-indie_pop-tanha_dil
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-indie_pop-tera_chehra
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-indie_pop-woh_chali_woh_chali
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-indie_pop-yaad_pia_ki
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-indie_pop-yaaron
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-jazz-all_of_me
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-jazz-autumn_leaves
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-jazz-blue_monk
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 500 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-jazz-body_and_soul
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-jazz-jazz
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-jazz-misty
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-jazz-my_funny_valentine
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-jazz-sing_sing_sing
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-jazz-sophisticated_lady
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-jazz-strange_fruit
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-jazz-take_five
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-pop-cheap_thrills
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-pop-fake_love
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 510 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-pop-hey_jude
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-pop-i_love_you
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-pop-photograph
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-pop-play_that_song
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-pop-pop
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-pop-rockabye
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-pop-shape_of_you
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-pop-something_just_like_this
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-rock-back_in_black
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-rock-born_to_be_wild
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 520 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-rock-free_bird
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-rock-highway_to_hell
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-rock-hotel_california
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-rock-purple_haze
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-rock-rock
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-rock-smoke_on_the_water
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-rock-stairway_to_heaven
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-rock-sweet_child_o_mine
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay4-rock-welcome_to_the_jungle
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-24
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 530 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-25
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-26
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-27
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-28
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-indie_pop-bhool_ja
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-indie_pop-deewana_tera
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-indie_pop-indie_pop
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-indie_pop-kajra_re
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-indie_pop-o_piya
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-indie_pop-saathiya
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 540 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-indie_pop-tanha_dil
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-indie_pop-tera_chehra
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-indie_pop-woh_chali_woh_chali
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-indie_pop-yaad_pia_ki
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-indie_pop-yaaron
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-jazz-all_of_me
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-jazz-autumn_leaves
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-jazz-blue_monk
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-jazz-body_and_soul
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-jazz-jazz
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 550 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-jazz-misty
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-jazz-my_funny_valentine
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-jazz-sing_sing_sing
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-jazz-sophisticated_lady
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-jazz-strange_fruit
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-jazz-take_five
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-pop-cheap_thrills
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-pop-fake_love
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-pop-hey_jude
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-pop-i_love_you
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 560 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-pop-photograph
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-pop-play_that_song
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-pop-pop
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-pop-rockabye
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-pop-shape_of_you
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-pop-something_just_like_this
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-rock-back_in_black
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-rock-born_to_be_wild
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-rock-free_bird
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-rock-highway_to_hell
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:177) Processed 570 utterances
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-rock-hotel_california
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-rock-purple_haze
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-rock-rock
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-rock-smoke_on_the_water
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-rock-stairway_to_heaven
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-rock-sweet_child_o_mine
+WARNING (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:178) Processed features for key srijay5-rock-welcome_to_the_jungle
+LOG (compute-mfcc-feats[5.0.61~2-37b53]:main():compute-mfcc-feats.cc:181)  Done 576 out of 576 utterances.
+LOG (copy-feats[5.0.61~2-37b53]:main():copy-feats.cc:120) Copied 576 feature matrices.
+# Accounting: time=37 threads=1
+# Ended (code 0) at Sun Apr 30 13:52:12 IST 2017, elapsed time 37 seconds

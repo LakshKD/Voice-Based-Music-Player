@@ -1,0 +1,69 @@
+########################### Mono- phone training #####################################
+
+%WER 21.70 [ 46 / 212, 1 ins, 32 del, 13 sub ]
+%SER 38.54 [ 37 / 96 ]
+exp/mono/decode/wer_11
+%WER 21.23 [ 45 / 212, 1 ins, 32 del, 12 sub ]
+%SER 38.54 [ 37 / 96 ]
+exp/mono/decode/wer_12
+%WER 21.70 [ 46 / 212, 1 ins, 33 del, 12 sub ]
+%SER 39.58 [ 38 / 96 ]
+exp/mono/decode/wer_13
+%WER 21.70 [ 46 / 212, 1 ins, 34 del, 11 sub ]
+%SER 39.58 [ 38 / 96 ]
+exp/mono/decode/wer_14
+%WER 21.70 [ 46 / 212, 1 ins, 34 del, 11 sub ]
+%SER 39.58 [ 38 / 96 ]
+exp/mono/decode/wer_15
+%WER 22.17 [ 47 / 212, 1 ins, 35 del, 11 sub ]
+%SER 39.58 [ 38 / 96 ]
+exp/mono/decode/wer_16
+%WER 22.17 [ 47 / 212, 1 ins, 36 del, 10 sub ]
+%SER 39.58 [ 38 / 96 ]
+exp/mono/decode/wer_17
+%WER 22.17 [ 47 / 212, 1 ins, 36 del, 10 sub ]
+%SER 39.58 [ 38 / 96 ]
+exp/mono/decode/wer_7
+%WER 18.87 [ 40 / 212, 1 ins, 25 del, 14 sub ]
+%SER 32.29 [ 31 / 96 ]
+exp/mono/decode/wer_8
+%WER 18.87 [ 40 / 212, 1 ins, 26 del, 13 sub ]
+%SER 33.33 [ 32 / 96 ]
+exp/mono/decode/wer_9
+%WER 20.28 [ 43 / 212, 1 ins, 29 del, 13 sub ]
+%SER 35.42 [ 34 / 96 ]
+
+############################## Tri-Phone Training ##################################
+
+%WER 10.38 [ 22 / 212, 2 ins, 6 del, 14 sub ]
+%SER 14.58 [ 14 / 96 ]
+exp/tri1/decode/wer_11
+%WER 10.38 [ 22 / 212, 2 ins, 6 del, 14 sub ]
+%SER 14.58 [ 14 / 96 ]
+exp/tri1/decode/wer_12
+%WER 10.38 [ 22 / 212, 2 ins, 6 del, 14 sub ]
+%SER 14.58 [ 14 / 96 ]
+exp/tri1/decode/wer_13
+%WER 10.38 [ 22 / 212, 2 ins, 6 del, 14 sub ]
+%SER 14.58 [ 14 / 96 ]
+exp/tri1/decode/wer_14
+%WER 10.38 [ 22 / 212, 1 ins, 7 del, 14 sub ]
+%SER 14.58 [ 14 / 96 ]
+exp/tri1/decode/wer_15
+%WER 10.38 [ 22 / 212, 1 ins, 7 del, 14 sub ]
+%SER 14.58 [ 14 / 96 ]
+exp/tri1/decode/wer_16
+%WER 10.38 [ 22 / 212, 1 ins, 7 del, 14 sub ]
+%SER 14.58 [ 14 / 96 ]
+exp/tri1/decode/wer_17
+%WER 10.38 [ 22 / 212, 1 ins, 9 del, 12 sub ]
+%SER 14.58 [ 14 / 96 ]
+exp/tri1/decode/wer_7
+%WER 10.38 [ 22 / 212, 2 ins, 6 del, 14 sub ]
+%SER 14.58 [ 14 / 96 ]
+exp/tri1/decode/wer_8
+%WER 10.38 [ 22 / 212, 2 ins, 6 del, 14 sub ]
+%SER 14.58 [ 14 / 96 ]
+exp/tri1/decode/wer_9
+%WER 10.38 [ 22 / 212, 2 ins, 6 del, 14 sub ]
+%SER 14.58 [ 14 / 96 ]

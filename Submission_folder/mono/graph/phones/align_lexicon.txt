@@ -1,0 +1,91 @@
+!SIL !SIL sil_S
+<UNK> <UNK> spn_S
+<eps> <eps> sil
+Be Be b_B i:_E
+Smoke Smoke s_B m_I əʊ_I k_E
+Something Something s_B ʌ_I m_I θ_I ɪ_I ŋ_E
+Welcome Welcome w_B e_I l_I k_I ə_I m_E
+all all ɔ:_B l_E
+and and ə_B n_E
+autumn autumn ɔ:_B t_I ə_I m_E
+back back b_B æ_I k_E
+bhool bhool b_B h_I u:_I l_E
+bird bird b_B ɜ:_I d_E
+black black b_B l_I æ_I k_E
+blue blue b_B l_I u:_E
+body body b_B ɒ_I d_I ɪ_E
+born born b_B ɔ:_I n_E
+california california k_B æ_I l_I ɪ_I f_I ɔ:_I n_I ɪə_E
+chali chali tʃ_B ɔ:_I l_I ɪ_E
+cheap cheap tʃ_B i:_I p_E
+chehra chehra tʃ_B h_I r_I ə_E
+child child tʃ_B aɪ_I l_I d_E
+deewana deewana d_B i:_I j_I w_I ə_I n_I ə_E
+dil dil d_B ɪ_I l_E
+fake fake f_B eɪ_I k_E
+five five f_B aɪ_I v_E
+free free f_B r_I i:_E
+fruit fruit f_B r_I u:_I t_E
+funny funny f_B ʌ_I n_I ɪ_E
+genre genre dʒ_B e_I n_I r_E
+haze haze h_B eɪ_I z_E
+hell hell h_B e_I l_E
+hey hey h_B eɪ_E
+highway highway h_B aɪ_I w_I eɪ_E
+hotel hotel h_B əʊ_I t_I e_I l_E
+i i aɪ_S
+in in ɪ_B n_E
+indie indie ɪ_B n_I d_I ɪ_E
+ja ja dʒ_B ə_E
+jazz jazz dʒ_B æ_I z_E
+jude jude dʒ_B u:_I d_E
+jungle jungle dʒ_B ʌ_I ŋ_I g_I l_E
+just just dʒ_B ʌ_I s_I t_E
+kajra kajra k_B æ_I dʒ_I r_I ə_E
+ki ki k_B ɪ_E
+lady lady l_B eɪ_I d_I ɪ_E
+leaves leaves l_B i:_I v_I z_E
+like like l_B aɪ_I k_E
+love love l_B ʌ_I v_E
+me me m_B i:_E
+mine mine m_B aɪ_I n_E
+misty misty m_B ɪ_I s_I t_I ɪ_E
+monk monk m_B ʌ_I ŋ_I k_E
+my my m_B aɪ_E
+o o əʊ_S
+of of ə_B v_E
+of of ʃ_B eɪ_I p_E
+on on ɒ_B n_E
+photograph photograph f_B əʊ_I t_I ə_I g_I r_I ɑ:_I f_E
+pia pia p_B ɪ_I ɪə_E
+piya piya p_B aɪ_I j_I ə_E
+play play p_B l_I eɪ_E
+pop pop p_B ɒ_I p_E
+purple purple p_B ɜ:_I p_I l_E
+re re r_B eɪ_E
+rock rock r_B ɒ_I k_E
+rockabye rockabye r_B ɒ_I k_I ə_I b_I aɪ_E
+saathiya saathiya s_B ɑ:_I eɪ_I θ_I aɪ_I j_I ə_E
+shape shape ð_B æ_I t_E
+sing sing s_B ɪ_I ŋ_E
+song song s_B ɒ_I ŋ_E
+sophisticated sophisticated s_B ə_I f_I ɪ_I s_I t_I ɪ_I k_I eɪ_I t_I ɪ_I d_E
+soul soul s_B əʊ_I l_E
+strange strange s_B t_I r_I eɪ_I n_I dʒ_E
+sweet sweet s_B w_I i:_I t_E
+take take t_B eɪ_I k_E
+tanha tanha t_B ə_I n_I ə_E
+tera tera t_B ə_I r_I ə_E
+that that ð_B æ_I t_E
+the the ð_B ə_E
+this this ð_B ɪ_I s_E
+thrills thrills θ_B r_I ɪ_I l_I z_E
+to to t_B ə_E
+valentine valentine v_B ə_I l_I ə_I n_I t_I aɪ_I n_E
+water water w_B ɔ:_I t_I ə_E
+wild wild w_B aɪ_I l_I d_E
+woh woh w_B ɒ_E
+yaad yaad j_B ɑ:_I d_E
+yaaron yaaron eə_B r_I ə_I n_E
+you you j_B u:_E
+you you ə_B v_I j_I u:_E
